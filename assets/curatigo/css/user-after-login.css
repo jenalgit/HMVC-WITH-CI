@@ -1,0 +1,54 @@
+.user-form-completion{ background:url(../images/bg-user.jpg); height:100vh;}
+
+.user-form-fields {background: #fff;  margin: 60px 0 0 0;  padding: 30px; border-radius:2px; font-family: karla;}
+.user-form-completion h4 {font-size: 30px;  margin: 0px 0 10px; font-family:raleway;}
+.user-form-fields .form-control {border-radius: 0;  box-shadow: none; -webkit-box-shadow: none; -o-box-shadow: none; -ms-box-shadow: none;  height: 40px;  line-height: 40px;  margin: 20px 0; border-radius:2px;}
+
+@media (max-width:400px){
+	
+.user-form-completion h4 {font-size: 26px;}	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

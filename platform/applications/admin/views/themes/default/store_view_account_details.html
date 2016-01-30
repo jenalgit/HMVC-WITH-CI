@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+<meta charset="utf-8"/>
+<title>curatigo | Store View User Account</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta content="" name="description"/>
+<meta content="" name="author"/>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css"/>
+<link href="../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+<link href="../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="../assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+<link href="../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css"/>
+<link href="../assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.css" rel="stylesheet" type="text/css"/>
+
+<link href="../assets/admin/pages/css/profile.css" rel="stylesheet" type="text/css"/>
+<link href="../assets/admin/pages/css/tasks.css" rel="stylesheet" type="text/css"/>
+<link href="../assets/global/css/components.css" id="style_components" rel="stylesheet" type="text/css"/>
+<link href="../assets/global/css/plugins.css" rel="stylesheet" type="text/css"/>
+<link href="../assets/admin/layout/css/layout.css" rel="stylesheet" type="text/css"/>
+<link id="style_color" href="../assets/admin/layout/css/themes/darkblue.css" rel="stylesheet" type="text/css"/>
+<link href="../assets/admin/layout/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="../assets/custome_css/store_view_account_detail.css" rel="stylesheet" type="text/css"/>
+<link href="../assets/custome_css/store_view_analytics.css" rel="stylesheet" type="text/css"/>
+<link rel="shortcut icon" href="favicon.ico"/>
+<!--[if lt IE 9]>
+<script src="../assets/global/plugins/respond.min.js"></script>
+<script src="../assets/global/plugins/excanvas.min.js"></script> 
+<![endif]-->
+</head>
+<body class="page-header-fixed page-quick-sidebar-over-content page-sidebar-closed page-sidebar-closed page-container-bg-solid" data-spy="scroll" data-target="#myScrollspy">
+<div class="page-header navbar navbar-fixed-top">
+	<div class="page-header-inner">
+        <div class="page-logo">
+            <a href="index.html">
+                <img class="logo-default" alt="logo" src="../assets/admin/layout/img/logo.png">
+            </a>
+            <div class="menu-toggler sidebar-toggler hide"> </div>
+        </div>
+        <a class="menu-toggler responsive-toggler" data-target=".navbar-collapse" data-toggle="collapse" href="javascript:;"> </a>
+		<div class="top-menu">
+			<ul class="nav navbar-nav pull-right">
+				<li class="dropdown dropdown-user">
+					<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+					<img alt="" class="img-circle" src="../assets/admin/layout/img/avatar3_small.jpg"/>
+					<span class="username username-hide-on-mobile">
+					Nick </span>
+					<i class="fa fa-angle-down"></i>
+					</a>
+					<ul class="dropdown-menu dropdown-menu-default">
+						<li>
+							<a href="extra_profile.html">
+							<i class="icon-user"></i> My Profile </a>
+						</li>
+						<li>
+							<a href="page_calendar.html">
+							<i class="icon-calendar"></i> My Calendar </a>
+						</li>
+						<li>
+							<a href="inbox.html">
+							<i class="icon-envelope-open"></i> My Inbox <span class="badge badge-danger">
+							3 </span>
+							</a>
+						</li>
+						<li>
+							<a href="page_todo.html">
+							<i class="icon-rocket"></i> My Tasks <span class="badge badge-success">
+							7 </span>
+							</a>
+						</li>
+						<li class="divider">
+						</li>
+						<li>
+							<a href="extra_lock.html">
+							<i class="icon-lock"></i> Lock Screen </a>
+						</li>
+						<li>
+							<a href="login.html">
+							<i class="icon-key"></i> Log Out </a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>		
+	</div>
+</div>
+<div class="clearfix"></div>
+<div class="page-container">
+	<!-- BEGIN SIDEBAR -->
+	<div class="page-sidebar-wrapper">
+		<div class="page-sidebar navbar-collapse collapse">
+			<ul class="page-sidebar-menu page-sidebar-menu-closed" data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+				<li class="sidebar-toggler-wrapper">
+					<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+					<div class="sidebar-toggler"></div>
+					<!-- END SIDEBAR TOGGLER BUTTON -->
+				</li>
+				<li class="sidebar-search-wrapper">
+					<form class="sidebar-search " action="extra_search.html" method="POST">
+						<a href="javascript:;" class="remove">
+						<i class="icon-close"></i>
+						</a>
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Search...">
+							<span class="input-group-btn">
+							<a href="javascript:;" class="btn submit"><i class="icon-magnifier"></i></a>
+							</span>
+						</div>
+					</form>
+				</li>
+				<li class="active open">
+					<a href="javascript:;">
+					<i class="icon-docs"></i>
+					<span class="title">Store</span>
+					<span class="selected"></span>
+					<span class="arrow open"></span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- END SIDEBAR -->
+	<!-- BEGIN CONTENT -->
+	<div class="page-content-wrapper">
+		<div class="page-content">						
+			<div class="page-bar">
+				<ul class="page-breadcrumb">					
+					<li>
+                    	<i class="fa fa-home"></i>
+						<a href="store_view.html">Store</a>
+						<i class="fa fa-angle-right"></i>
+					</li>
+					<li>
+						<a href="store_view_account_details.html">Seller Account</a>
+					</li>
+				</ul>                
+			</div>
+			<!-- BEGIN PAGE CONTENT-->
+			<div class="row margin-top-20">
+				<div class="col-md-12">
+					<!-- BEGIN PROFILE SIDEBAR -->
+					<div class="profile-sidebar">
+                    	<div class="portlet light profile-sidebar-portlet">
+                            <div class="profile-userpic">
+                            	<img class="img-responsive" alt="" src="../assets/admin/pages/media/profile/profile_user.jpg">
+                            </div>
+                            <div class="profile-usertitle">
+                                <div class="profile-usertitle-name">Store View</div>
+                                <div class="profile-usertitle-job"> Developer </div>
+                            </div>
+                            <div class="profile-userbuttons">
+                                <button class="btn btn-circle green-haze btn-sm" type="button">Follow</button>
+                                <button class="btn btn-circle btn-danger btn-sm" type="button">Message</button>
+                            </div>
+                            
+                            <div class="profile-usermenu">
+                            	<ul class="nav">
+                                    <li class="active">
+                                        <a href="store_view.html">
+                                        	<i class="icon-home"></i>
+                                       	 Overview
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="store_view_account_details.html">
+                                        	<i class="icon-settings"></i>
+                                        	Store Account Details
+                                        </a>
+                                    </li>
+                                    <li>
+										<a href="store_view_products.html">
+										<i class="icon-puzzle"></i>
+										Products</a>
+									</li>
+                                      <li>
+										<a id="dropdownmenu" data-toggle="collapse" aria-expanded="false" href="javascript:;" data-target="#storeul">
+											<i class="fa fa-list-ul"></i>
+											Store Analytics
+                                            <span class="fa-stack fa-lg" id="change_this">
+                                        	<i class="fa fa-plus fa-stack-1x"></i>
+                                            </span>
+                                        </a>
+                                          <ul class="collapse" id="storeul" aria-labelledby="dropdownmenu">
+                                         	<li><a href="store_view_analytics.html"><i class="fa fa-caret-right"></i>Visitors</a></li>
+                                            <li><a href="store_view_analytics_sales.html"><i class="fa fa-caret-right"></i>Sales</a></li>
+                                            <li><a href="store_view_analytics_refund.html"><i class="fa fa-caret-right"></i>Refunds</a></li>
+                                            <li><a href="store_view_analytics_order.html"><i class="fa fa-caret-right"></i>Orders</a></li>
+                                         </ul>
+									</li>
+                                    <li>
+                                    	<a href="store_report_analytics.html">
+                                    		<i class="fa fa-list-alt"></i>
+                                    		Reports & Analytics
+                                    	</a>
+                                    </li>
+                                    <li>
+                                    	<a href="extra_profile_help.html">
+                                   		 	<i class="icon-info"></i>
+                                   		 	Help
+                                   		</a>
+                                    </li>
+                           		</ul>
+                            </div>
+                        </div>
+                    	<div class="portlet light">
+							<div class="row list-separated profile-stat">
+								<div class="col-md-4 col-sm-4 col-xs-6">
+									<div class="uppercase profile-stat-title">
+										 37
+									</div>
+									<div class="uppercase profile-stat-text">
+										 Projects
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-6">
+									<div class="uppercase profile-stat-title">
+										 51
+									</div>
+									<div class="uppercase profile-stat-text">
+										 Tasks
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-6">
+									<div class="uppercase profile-stat-title">
+										 61
+									</div>
+									<div class="uppercase profile-stat-text">
+										 Uploads
+									</div>
+								</div>
+							</div>
+							<div>
+								<h4 class="profile-desc-title">About Marcus Doe</h4>
+								<span class="profile-desc-text"> Lorem ipsum dolor sit amet diam nonummy nibh dolore. </span>
+								<div class="margin-top-20 profile-desc-link">
+									<i class="fa fa-globe"></i>
+									<a href="http://www.keenthemes.com">www.keenthemes.com</a>
+								</div>
+								<div class="margin-top-20 profile-desc-link">
+									<i class="fa fa-twitter"></i>
+									<a href="http://www.twitter.com/keenthemes/">@keenthemes</a>
+								</div>
+								<div class="margin-top-20 profile-desc-link">
+									<i class="fa fa-facebook"></i>
+									<a href="http://www.facebook.com/keenthemes/">keenthemes</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- END BEGIN PROFILE SIDEBAR -->
+					<!-- BEGIN PROFILE CONTENT -->
+					<div class="profile-content">
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12">
+								<div class="portlet light">
+									<div class="portlet-title tabbable-line">
+										<div class="caption caption-md">
+											<i class="icon-globe theme-font hide"></i>
+											<span class="caption-subject font-blue-madison bold uppercase">Profile Account</span>
+										</div>
+										<ul class="nav nav-tabs">
+											<li class="active">
+												<a href="#store_detail" data-toggle="tab">Store Details</a>
+											</li>
+											<li>
+												<a href="#business_detail" data-toggle="tab">Business & Bank Details</a>
+											</li>
+                                            <li>
+												<a href="#storeAccount_document" data-toggle="tab">Documents</a>
+											</li>
+										</ul>
+									</div>
+									<div class="portlet-body">
+										<div class="tab-content">
+											<!--BEGIN store detail TAB-1 -->
+											<div class="tab-pane active" id="store_detail">
+												<form role="form" action="#">
+													<div class="form-group">
+														<label class="control-label">Seller Name</label>
+														<input type="text" class="form-control"/>
+													</div>
+													<div class="form-group">
+														<label class="control-label">Seller Email Address</label>
+														<input type="text" class="form-control"/>
+													</div>
+                                                    <div class="form-group">
+														<label class="control-label">City Pincode Number</label>
+														<input type="text" class="form-control"/>
+													</div>	
+                                                     <div class="form-group">
+														<label class="control-label">State</label>
+														<input type="text" class="form-control"/>
+													</div>	
+                                                     <div class="form-group">
+														<label class="control-label">City</label>
+														<input type="text" class="form-control"/>
+													</div>	
+                                                    <div class="form-group">
+														<label class="control-label">Contact Number</label>
+														<input type="text" class="form-control"/>
+													</div>	                                                  
+                                                    <div class="form-group">
+														<label class="control-label">Display Name</label>
+														<input type="text" class="form-control"/>
+													</div>
+													<div class="form-group">
+														<label class="control-label">Store Description</label>
+														<textarea class="form-control" name="store_desc" id"store_desc"></textarea>
+													</div>	
+                                                    <div class="caption caption-md">
+                                                        <i class="icon-globe theme-font hide"></i>
+                                                        <span class="caption-subject font-black-madison bold uppercase">Pick up Address</span>
+                                                	</div>	
+                                                    <div class="form-group">
+														<label class="control-label">Contact Number</label>
+														<input type="text" class="form-control"/>
+													</div>	
+													<div class="form-group">
+														<label class="control-label">Pick up Address</label>
+														<textarea class="form-control" name="store_desc" id"store_desc"></textarea>
+													</div>		
+                                                    <div class="form-group">
+														<label class="control-label">Pincode Number</label>
+														<input type="text" class="form-control"/>
+													</div>	
+                                                     <div class="form-group">
+														<label class="control-label">State</label>
+														<input type="text" class="form-control"/>
+													</div>	
+                                                     <div class="form-group">
+														<label class="control-label">City</label>
+														<input type="text" class="form-control"/>
+													</div>												
+													<div class="margiv-top-10">
+														<a href="javascript:;" class="btn green-haze">
+														Save </a>
+														<a href="javascript:;" class="btn default">
+														Cancel </a>
+													</div>
+												</form>
+											</div>
+											<!-- END store detail TAB-1 -->
+											<!--BEGIN business_detail TAB-2 -->
+											<div class="tab-pane" id="business_detail">	
+                                            	<div class="caption caption-md">
+                                                    <i class="icon-globe theme-font hide"></i>
+                                                    <span class="caption-subject font-black-madison bold uppercase">Business Details</span>
+                                                </div>		
+												<form action="#" role="form">
+													<div class="form-group">
+														<label class="control-label">Business Name</label>
+														<input type="text" class="form-control"/>
+													</div>
+                                                     <div class="form-group">
+														<label class="control-label">Main Selling Category</label>
+														<input type="text" class="form-control"/>
+													</div>	
+													<div class="form-group">
+														<label class="control-label">PAN Number</label>
+														<input type="text" class="form-control"/>
+													</div>
+													<div class="form-group">
+														<label class="control-label">TIN Number</label>
+														<input type="text" class="form-control"/>
+													</div>
+													<div class="form-group">
+														<label class="control-label">TAN Number</label>
+														<textarea class="form-control" name="store_desc" id"store_desc"></textarea>
+													</div>													
+													<div class="margiv-top-10">
+														<a href="javascript:;" class="btn green-haze">
+														Edit </a>
+														<a href="javascript:;" class="btn default">
+														Cancel </a>
+													</div>													
+												</form>
+                                               	<div class="caption caption-md">
+                                                    <i class="icon-globe theme-font hide"></i>
+                                                    <span class="caption-subject font-black-madison bold uppercase">Bank Details</span>
+                                                </div>		
+												<form action="#" role="form">
+                                                <div class="form-group">
+														<label class="control-label">Bank Name</label>
+														<textarea class="form-control" name="store_desc" id"store_desc"></textarea>
+													</div>
+													<div class="form-group">
+														<label class="control-label">Account Holder Name</label>
+														<input type="text" class="form-control"/>
+													</div>
+													<div class="form-group">
+														<label class="control-label">Account Number</label>
+														<input type="text" class="form-control"/>
+													</div>
+													<div class="form-group">
+														<label class="control-label">IFSC Code</label>
+														<input type="text" class="form-control"/>
+													</div>
+													<div class="form-group">
+														<label class="control-label">State</label>
+														<input type="text" class="form-control"/>
+													</div>	
+                                                    <div class="form-group">
+														<label class="control-label">City</label>
+														<input type="text" class="form-control"/>
+													</div>	
+                                                    <div class="form-group">
+														<label class="control-label">Branch</label>
+														<input type="text" class="form-control"/>
+													</div>											
+													<div class="margiv-top-10">
+														<a href="javascript:;" class="btn green-haze">
+														Save </a>
+														<a href="javascript:;" class="btn default">
+														Cancel </a>
+													</div>													
+												</form>
+											</div>
+											<!-- END business_detail TAB-2 -->
+											<!--BEGIN Document TAB-3 -->
+											<div class="tab-pane" id="storeAccount_document">	
+                                            	<div class="col-lg-12 col-md-12 col-sm-12">
+                                                    <div class="col-lg-2 col-md-2 col-sm-2">
+                                                        <div class="upload_file">
+                                                            <input id="otherFile" class="fileStyle" type="file" name="imageFile" data-icon="false" data-buttontext="Upload Image" tabindex="-1">
+                                                            <div class="bootstrap-fileStyle">
+                                                                <span class="input-group-btn span_fileStyle" tabindex=0>
+                                                                    <label class="btn default" for="otherFile">Upload Other Files</label>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-9 col-md-9 col-sm-9"></div>
+                                                </div>
+                                                <div class="col-lg-8 col-md-8 col-sm-8">
+                                                    <div class="col-lg-3 col-md-3 col-sm-3 checkColumn">
+                                                    	<div>
+                                                        	<input type="checkbox">
+                                                        </div>
+                                                        <div class="checkLabel">
+                                                        	<label>1 file selected.</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-2 col-md-2 col-sm-2 deleteAction">
+                                                    	<a href="javascript:;" class="btn btn-sm">Other Actions
+                                                        	<i class="fa fa-caret-down"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                               <!-- <div class="col-lg-12 col-md-12 col-sm-12">
+                                                <div class="upload_documents">
+                                                	<div class="col-lg-4 col-md-4 col-sm-4">
+                                                    	<h4>PAN Card</h4>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                                    	<div class="cropFile">
+                                                        	<div class="file_model">
+                                                            	<div class="model-body">
+                                                                	<div class="file_body">
+                                                                    	<div class="error_css">Invalid file type.</div>
+                                                                        <div class="upload_mainbody">
+                                                                        	<div class="upload_file">
+                                                                            	<input id="panInput" class="fileStyle" type="file" name="imageFile" data-icon="false" data-buttontext="Upload Image" tabindex="-1">
+                                                                                <div class=" bootstrap-fileStyle">
+                                                                                	<span class="input-group-btn span_fileStyle" tabindex=0>
+                                                                                    	<label class="btn default" for="panInput">Upload File</label>
+                                                                                    </span>
+                                                                                </div>
+                                                                                
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                                    	<div class="file_status">
+                                                        	<label>Approved</label>
+                                                        </div>
+                                                    </div>
+                                                </div>   
+                                                </div> 
+                                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                                <div class="upload_documents">
+                                                	<div class="col-lg-4 col-md-4 col-sm-4">
+                                                    	<h4>TIN Document</h4>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                                    	<div class="cropFile">
+                                                        	<div class="file_model">
+                                                            	<div class="model-body">
+                                                                	<div class="file_body">
+                                                                    	<div class="error_css">Invalid file type.</div>
+                                                                        <div class="upload_mainbody">
+                                                                        	<div class="upload_file">
+                                                                            	<input id="tinInput" class="fileStyle" type="file" name="imageFile" data-icon="false" data-buttontext="Upload Image" tabindex="-1">
+                                                                                <div class=" bootstrap-fileStyle">
+                                                                                	<span class="input-group-btn span_fileStyle" tabindex=0>
+                                                                                    	<label class="btn default" for="tinInput">Upload File</label>
+                                                                                    </span>
+                                                                                </div>
+                                                                                
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                                    	<div class="file_status">
+                                                        	<label>Approved</label>
+                                                        </div>
+                                                    </div>
+                                                </div>   
+                                                </div> 
+                                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                                <div class="upload_documents">
+                                                	<div class="col-lg-4 col-md-4 col-sm-4">
+                                                    	<h4>TAN Document</h4>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                                    	<div class="cropFile">
+                                                        	<div class="file_model">
+                                                            	<div class="model-body">
+                                                                	<div class="file_body">
+                                                                    	<div class="error_css">Invalid file type.</div>
+                                                                        <div class="upload_mainbody">
+                                                                        	<div class="upload_file">
+                                                                            	<input id="tanInput" class="fileStyle" type="file" name="imageFile" data-icon="false" data-buttontext="Upload Image" tabindex="-1">
+                                                                                <div class=" bootstrap-fileStyle">
+                                                                                	<span class="input-group-btn span_fileStyle" tabindex=0>
+                                                                                    	<label class="btn default" for="tanInput">Upload File</label>
+                                                                                    </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                                    	<div class="file_status">
+                                                        	<label>Approved</label>
+                                                        </div>
+                                                    </div>
+                                                </div>   
+                                                </div> 
+                                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                                <div class="upload_documents">
+                                                	<div class="col-lg-4 col-md-4 col-sm-4">
+                                                    	<h4>Bank Account Statments</h4>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                                    	<div class="cropFile">
+                                                        	<div class="file_model">
+                                                            	<div class="model-body">
+                                                                	<div class="file_body">
+                                                                    	<div class="error_css">Invalid file type.</div>
+                                                                        <div class="upload_mainbody">
+                                                                        	<div class="upload_file">
+                                                                            	<input id="bankInput" class="fileStyle" type="file" name="imageFile" data-icon="false" data-buttontext="Upload Image" tabindex="-1">
+                                                                                <div class=" bootstrap-fileStyle">
+                                                                                	<span class="input-group-btn span_fileStyle" tabindex=0>
+                                                                                    	<label class="btn default" for="bankInput">Upload File</label>
+                                                                                    </span>
+                                                                                </div>
+                                                                                
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                                    	<div class="file_status">
+                                                        	<label>Approved</label>
+                                                        </div>
+                                                    </div>
+                                                </div>   
+                                                </div>  
+                                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                                <div class="upload_documents">
+                                                	<div class="col-lg-4 col-md-4 col-sm-4">
+                                                    	<h4>Store LOGO</h4>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                                    	<div class="cropFile">
+                                                        	<div class="file_model">
+                                                            	<div class="model-body">
+                                                                	<div class="file_body">
+                                                                    	<div class="error_css">Invalid file type.</div>
+                                                                        <div class="upload_mainbody">
+                                                                        	<div class="upload_file">
+                                                                            	<input id="logoInput" class="fileStyle" type="file" name="imageFile" data-icon="false" data-buttontext="Upload Image" tabindex="-1">
+                                                                                <div class="bootstrap-fileStyle">
+                                                                                	<span class="input-group-btn span_fileStyle" tabindex=0>
+                                                                                    	<label class="btn default" for="logoInput">Upload Image</label>
+                                                                                    </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                                    	<div class="file_status">
+                                                        	<label>Approved</label>
+                                                        </div>
+                                                    </div>
+                                                </div>   
+                                                </div> -->                                        	
+											</div>
+											<!-- END Document TAB-3 -->
+							    		</div>
+									</div>
+								</div>
+							</div>
+						</div>
+            		</div>
+       			</div>
+    		</div>
+		</div>
+    </div>
+ </div>
+     
+
+<!-- BEGIN FOOTER -->
+<div class="page-footer">
+	<div class="page-footer-inner">
+		 2014 &copy; Metronic by keenthemes. <a href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" title="Purchase Metronic just for 27$ and get lifetime updates for free" target="_blank">Purchase Metronic!</a>
+	</div>
+	<div class="scroll-to-top">
+		<i class="icon-arrow-up"></i>
+	</div>
+</div>
+<!-- END FOOTER -->
+
+<script src="../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="../assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script type="text/javascript" src="../assets/global/plugins/bootstrap-daterangepicker/moment.min.js"></script>
+<script type="text/javascript" src="../assets/global/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+<script type="text/javascript" src="../assets/global/plugins/bootstrap-select/bootstrap-select.min.js"></script>
+<script type="text/javascript" src="../assets/global/plugins/select2/select2.min.js"></script>
+<script type="text/javascript" src="../assets/global/plugins/jquery-multi-select/js/jquery.multi-select.js"></script>
+<script type="text/javascript" src="../assets/global/plugins/datatables/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js"></script>
+
+<script src="../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/jquery.sparkline.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="../assets/global/plugins/amcharts/amcharts/amcharts.js"></script>
+<script type="text/javascript" src="../assets/global/plugins/amcharts/amcharts/serial.js"></script>
+<script type="text/javascript" src="../assets/global/plugins/amcharts/amcharts/pie.js"></script>
+<script type="text/javascript" src="../assets/global/plugins/amcharts/amcharts/radar.js"></script>
+<script type="text/javascript" src="../assets/global/plugins/amcharts/amcharts/themes/light.js"></script>
+<script type="text/javascript" src="../assets/global/plugins/amcharts/amcharts/themes/patterns.js"></script>
+<script type="text/javascript" src="../assets/global/plugins/amcharts/amcharts/themes/chalk.js"></script>
+<script type="text/javascript" src="../assets/global/plugins/amcharts/ammap/ammap.js"></script>
+<script type="text/javascript" src="../assets/global/plugins/amcharts/ammap/maps/js/worldLow.js"></script>
+<script type="text/javascript" src="../assets/global/plugins/amcharts/amstockcharts/amstock.js"></script>
+
+<script src="../assets/global/plugins/flot/jquery.flot.min.js"></script>
+<script src="../assets/global/plugins/flot/jquery.flot.resize.min.js"></script>
+<script src="../assets/global/plugins/flot/jquery.flot.pie.min.js"></script>
+<script src="../assets/global/plugins/flot/jquery.flot.stack.min.js"></script>
+<script src="../assets/global/plugins/flot/jquery.flot.crosshair.min.js"></script>
+<script src="../assets/global/plugins/flot/jquery.flot.categories.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/flot/jquery.flot.pie.min.js"></script>
+<script src="../assets/global/scripts/metronic.js" type="text/javascript"></script>
+<script src="../assets/admin/layout/scripts/layout.js" type="text/javascript"></script>
+<script src="../assets/admin/layout/scripts/quick-sidebar.js" type="text/javascript"></script>
+<script src="../assets/admin/layout/scripts/demo.js" type="text/javascript"></script>
+<script src="../assets/admin/pages/scripts/profile.js" type="text/javascript"></script>
+<script src="../assets/custom_js/store_view_analytics.js" type="text/javascript"></script>
+
+<script>
+        jQuery(document).ready(function() {  
+            Metronic.init(); 
+			Layout.init(); 
+			QuickSidebar.init(); 
+			Demo.init();			
+        });   
+    </script>
+</script>
+</body>
+<!-- END BODY -->
+</html>

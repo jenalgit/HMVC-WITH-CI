@@ -1,0 +1,187 @@
+
+.list-top, .list-bottom{ width:100%; float:left;}
+.list-bottom li { display:inline-block; margin: 0 17px 0 0; position:relative}
+.list-bottom li.last {margin-right: 0; text-align:center;}
+.list-bottom .last .num-count { left:0;  color: #fff;  font-size: 42px;  position: absolute;  top: 28%; font-family:arial; z-index:2; right:0;}
+.list-bottom li.last::after { background: #000 ;  content: "";  height: 100%;  left: 0;  opacity: 0.8;  position: absolute;  top: 0;  width: 100%;}
+.list-bottom img {height: 130px;  width: 130px;}
+.list-top h2 {font-size: 20px;  font-weight: 600;  margin: 0 0 5px;}
+.list-top p {font-family: karla; color:#999999;}
+.list-user-info li {display: inline-block;  float: none; position: relative;}
+.list-user-info li.collection-list {float: left;}
+.collection-list img {width: 18px; margin: 6px 0 0; height:auto; border-radius:0;}
+.collection-user img {border-radius: 100%;  height: 30px;  width: 30px;}
+.list-user-info li.last {color: #c6beaf;  margin:0; float:right;}
+.list-user-info li.last i {font-size: 16px;  padding: 0 10px 0 0;}
+
+.list-user-info .dropdown-menu {border: 1px solid #ddd;  left: -68%;  min-width: 300px;  text-align: center;}
+.list-user-info h4 {border-bottom: 1px solid #ddd;  font-size: 17px;  margin: 6px 0 8px;  padding: 0 0 10px;}
+.common-collection a {color: #cc4452;  display: block;}
+.common-collection span {color: #323232;}
+.common-collection > p {font-size: 15px;  margin: 20px 0;}
+.success-info{border-top: 1px solid #ddd;}
+.another-css {display: block;  padding: 10px 20px 6px;  text-align: left;  color: #323232;}
+.another-css:hover{color: #000;}
+.list-user-info i.fa-question-circle {position: absolute;  right: 18px;}
+.collection-add {padding: 10px 10px 5px;  text-align: left;}
+.collection-add > input { border: 1px solid #eee; display: inline-block; float: left; font-family: karla; height: 36px;  line-height: 36px; margin: 0 7px 0 0; padding: 0 6px; width: 68%;}
+.collection-add a {padding: 0 11px;  height: 35px;  line-height: 30px;}
+
+.collection-user-info-css button {font-family: karla;  margin: 10px 0 0;}
+
+.list-vote > a {display: block;}
+.list-common.common-new {padding: 20px 0 0; cursor:pointer; margin-bottom:30px;}
+.list-common:hover{ background:#f7f7f9; box-shadow:0 0 1px rgba(0,0,0,0.1); -webkit-box-shadow:0 0 1px rgba(0,0,0,0.1); -o-box-shadow:0 0 1px rgba(0,0,0,0.1); -ms-box-shadow:0 0 1px rgba(0,0,0,0.1);}
+.list-user-info, .list-bottom {text-align: center;}
+.list-common.common-new.last {margin: 20px 0 50px;}
+.main-collection-list .dropdown{cursor: pointer; float:right;}
+
+.main-collection-list .dropdown-toggle {font-size: 15px; font-weight: 500;}
+.main-collection-list .dropdown-menu li {font-size: 13px;}
+.collection-slider-media{ display:none;}
+
+/*=== Owl Carousel ===*/
+
+.list-bottom .owl-carousel .item img {height: auto; width: auto;}
+.list-bottom  .owl-item .item img:hover{ transform:none; -webkit-transform:none; -o-transform:none; -ms-transform:none;}
+.collection-slider-media .item {border: 1px solid #eee;}
+.collection-slider-media .item > a {display: block;}
+/*.collection-slider-media .owl-item {margin: 0 20px 0 0;}*/
+
+.more-products .list-user-info .dropdown-menu {border: 1px solid #ccc; padding-bottom: 15px; padding-top: 15px;text-align: center; left: auto; min-width: 220px; right: 0; text-align: center;}
+
+
+@media (max-width:1200px){
+	
+	.list-bottom li:nth-child(6){ display:none;}
+	.list-bottom li { margin: 0 11px 0 0;}
+	.list-bottom .users-lists li { margin: 0 45px 0 0;}
+	
+}
+
+
+@media (max-width:991px){
+.list-bottom li:nth-child(6), .list-bottom li:nth-child(5) {display: none;}
+.list-bottom img {height: 118px;  width: 118px;}
+.common-slider-content {margin-right: -4px;}
+.controls-slider a {top: 32%; }
+.controls-slider a.prev {left: 30px;}
+.controls-slider a.next {right: 30px;}
+.list-bottom .users-lists li {margin: 0 30px 0 0;}
+.users-lists .images-box img {height: 80px;  width: 80px;}
+.list-bottom .users-lists li {margin: 15px 45px 0 0;}
+.collection-lists { top: 80px;}
+.controls-slider {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+
+
+
+}
+
+@media (max-width:767px){
+.list-bottom li:nth-child(6), .list-bottom li:nth-child(5), .list-bottom li:nth-child(4), .list-bottom .users-lists li:nth-child(3) {display: none;}
+.list-bottom img {height: 90px;  width: 90px;}
+.collection-lists { top: 100px;}
+.profile-page-mid {margin: -240px 0 0;}
+.profile-page-mid .tab-menu-css > li {margin-top: 20px;}
+.show-slider .container {
+  margin: 10px 0 0;
+}
+
+
+
+.controls-slider {
+  color: black;
+  left: 0;
+  margin: 0 auto;
+  right: 0;
+  text-align: center;
+  top: 17px;
+  width: 72%;
+}
+.controls-slider a.prev::before {
+  content: "<< Prev";
+}
+.controls-slider a.prev {
+  left: auto;
+}
+.controls-slider a {
+  color: #974844;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  top: 44%;
+}
+.controls-slider a.next {
+  right: 38px;
+}
+.controls-slider a.next::before {
+  content: "Next >>";
+}
+.controls-slider i {
+  display: none;
+}
+
+
+
+}
+@media (max-width:600px){
+.collection-lists { top: 130px;}
+.users-lists { top: 130px;}
+.list-common.common-new{padding: 20px 0;}
+.list-common.common-new.new-list-common {padding: 20px 0 130px;}
+
+}
+
+@media (max-width:550px){
+.list-bottom li {margin: 0 0 0 0;}
+.list-user-info .dropdown-menu {min-width: 260px;}
+
+}
+@media (max-width:480px){
+	.list-top .col-xs-5, .list-top .col-xs-7{width: 100%;}
+	.list-bottom {margin: 17px 0;}
+	.list-bottom li:nth-child(6), .list-bottom li:nth-child(5), .list-bottom li:nth-child(4), .list-bottom li:nth-child(3) , .list-bottom li:nth-child(2){display: none;}
+	.list-user-info .dropdown-menu {min-width: 300px; left:0;}
+	.list-bottom li {margin: 0 20px 0 0;}
+	.list-bottom ul{ display:none;}
+	.collection-slider-media{ display:block;}
+	.list-common:hover {background:none;  box-shadow: none; -webkit-box-shadow: none; -o-box-shadow: none; -ms-box-shadow: none;}
+	.list-common.common-new { border-bottom: 15px solid #eee;  padding: 20px 0;}
+	.list-common .collection-list, .list-common .collection-user{ display:none}
+	.list-common .col-xs-5 {position: absolute;  right: 0;  width: auto;}
+	.list-common .list-vote {background: #f5f5f5;  line-height: 40px;  padding: 10px 0 0; width:40px;}
+	.list-common .list-vote i {top: 2px;}
+	.list-common .list-vote a:hover{ transform:none; -webkit-transform:none; -o-transform:none; -ms-transform:none;}
+	.list-top h2 {font-size: 18px; padding:0 35px  0 0;}
+	.list-common:last-child{ border:none;}
+	.landing-page-css {margin: 0;  padding-bottom: 0;}
+	
+	
+	
+		
+}
+
+
+@media (max-width:360px){
+
+.collection-lists{ top: 180px;}
+.users-lists{ top: 160px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

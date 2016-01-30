@@ -1,0 +1,45 @@
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+th
+{
+	text-align:center;
+}
+.tablediv_class
+{
+	display:none;
+}
+.btn.blue.secondbtn_class
+{
+	float:right;
+}
+.btn-lg
+{
+	font-size:15px;
+}
+.small, small
+{
+	font-size:100%;
+}
+p
+{
+	color:gray;
+}
+.col-lg-3.col-md-3.col-sm-3.theory
+{
+	padding-top:50px;
+}
+.col-lg-3.col-md-3.col-sm-3.theory h4
+{
+	font-weight:bold;
+	color:gray;
+}
+.table-scrollable.tablediv_class
+{
+	height:200px;
+}
+.dropdown-menu li > a
+{
+	padding:6px 15px;
+}

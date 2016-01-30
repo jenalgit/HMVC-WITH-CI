@@ -1,0 +1,352 @@
+.main-header, .header-inner, .cart-info-section, .header-search-form { line-height:3.5; transition:line-height 0.4s ease 0s; -webkit-transition:line-height 0.4s ease 0s; -ms-transition:line-height 0.4s ease 0s; -o-transition:line-height 0.4s ease 0s;}
+.logo-css {max-width: 40px;}
+
+.main-header{transition: background 0.4s ease 0s, height 0.4s ease 0s; z-index:10; background:transparent; width:100%; -webkit-transition: background 0.4s ease 0s, height 0.4s ease 0s; -ms-transition: background 0.4s ease 0s, height 0.4s ease 0s; -o-transition: background 0.4s ease 0s, height 0.4s ease 0s;}
+
+header {left: 0; position: absolute; top: 0; width: 100%;}
+
+
+
+/*====== Main header ======*/
+
+.main-header{ height:70px;  padding: 10px 0; width:100%; float:left; position:relative; background:#FFF;}
+
+.main-container { float: left;  overflow: hidden;  width: 100%; position:relative; min-height:100vh;}
+
+
+/* ===== Search Css ==== */
+
+.header-search-form {overflow: hidden; position: relative; float:left;}
+.header-search-form i {font-size: 1.3em; margin-left: 1px;}
+
+.header-search-form i, .header-search-form input { vertical-align: middle;}
+
+.header-search-form input { border:none; font-size: 1em; min-width: 200px; outline: medium none; padding: 10px 20px; line-height:normal;}
+
+.header-search-form span {border-top: 1px solid rgb(217, 83, 77); bottom: 0; left: -300px; position: absolute; width: 100%;}
+.header-search-form input:focus + span { left: 0;}
+
+/*===== Logo Css ====== */
+
+.logo-css {/*max-width: 230px;*/ margin:0 auto;}
+.dropdown-menu > li:focus, .dropdown-menu > li:hover { background-color: rgb(245, 245, 245); color: rgb(38, 38, 38); }
+.total strong {float: left;}
+.total .amount { float: right;}
+.top-menu-css a {color: #fff; font-size: 13px; font-weight: 600; padding: 0 10px; text-transform: capitalize; opacity:0.8;}
+.top-menu-css .logo-css a{ padding:0; position:relative; opacity:1;}
+.logo-css i {display: none; position: absolute; right: -12px;  top: 6px;}
+.top-menu-css a:hover{ opacity:1;}
+
+
+/*================= Header Right Css ================*/
+
+.pull-right.user-info-section > ul > li { display: inline-block; position:relative; line-height:6; }
+
+.counting {background: #f35958; border-radius: 50%;color: #fff;display: inline !important;float: none !important;font-size: 13px;height: 18px;left: 10px;line-height: 18px !important;
+margin: 0 8px 0 0;position: absolute;text-align: center;top: -11px;width: 18px;}
+
+.cart-info-section { line-height: 4; text-align: right; width: 100%; color:#323232;}
+.pull-right.cart-info-section > ul > li { display: inline-block; line-height: 3.5;  position: relative; margin: 0 0 0 20px;}
+
+.cart-info-section .dropdown-toggle {  font-size: 15px;}
+.cart-info-section ul li span { display: block; float: left; line-height: normal;}
+.cart-name, .user-name{ position: relative; vertical-align: middle; width: 20px;}
+.cart-info-section i { font-size: 18px; color:#fff;}
+
+.cart-info-section .btn-group  .dropdown-menu::before { border-bottom: 7px solid rgb(255, 255, 255); border-left: 7px solid rgba(0, 0, 0, 0); border-right: 7px solid rgba(0, 0, 0, 0); content: ""; height: 0; position: absolute; top: -7px;  width: 0;}
+
+.cart-info-section .btn-group  .dropdown-menu { background: rgb(255, 255, 255); border: 1px solid rgb(255, 255, 255); min-width: 300px;  padding: 10px 20px; top: 140%;  width: 100%;  border-radius: 4px 0 4px 4px; left: -274px; }
+
+.btn-group .dropdown-menu.account-info-css { border: 1px solid rgb(255, 255, 255); left: -174px;  min-width: 200px;  padding: 6px;  top: 88%;  width: 100%;}
+
+.btn-group .dropdown-menu.account-info-css > li { margin: 0 0 5px;  padding: 2px 0;}
+.cart-info-section .dropdown-menu.account-info-css li:hover { background: rgb(239, 242, 243) ;}
+.cart-info-section .dropdown-menu.cart-info-notification-css > li { margin: 0 0 12px; float:left; width:100%; padding: 5px;}
+.cart-info-section li .notification-left { width: 17%; float:left;}
+.cart-info-section li .notification-right { width: 76%; float:right;}
+.notification-right h4 {color: rgb(27, 30, 36); font-size: 13px; font-weight: 500; margin: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 100%;  word-break: break-all;}
+.counting.not-count {background: rgb(10, 166, 153);}
+
+.notification-right p { margin: 3px 0 0; font-size: 13px; }
+
+.notification-right a { float: left;}
+.notification-right .cross-css {float: right; font-size: 10px;}
+.notification-right i {font-size: 10px;}
+.variation {margin: 0 10px 0 0;}
+.total, .cart-info-section .buttons {float: left; width: 100%; line-height:normal;}
+.buttons .button { display: block; margin-bottom: 10px; text-align: center;}
+.total { margin: 20px 0;}
+
+.dropdown-menu.account-info-css a { white-space: normal; font-size:13px;}
+.dropdown-menu.account-info-css  li { margin: 0 0 5px;  padding: 2px 0;}
+.btn-group  .dropdown-menu.account-info-css  li.divider {border-top: 1px solid rgb(238, 238, 238); padding: 0;}
+.dropdown-menu.account-info-css li:last-child {margin: 0;}
+.account-info-css i{ float: left;  margin: 3px 6px 0 0; font-size:14px;}
+.header-user-login img {border-radius: 50%; height: 35px; width: 35px;  margin: 0 0 15px;}
+
+.cart-info-section .dropdown-toggle::after{ display:none;}
+
+
+/*========== Notification Css =========*/
+
+.user-info-section .btn-group > .dropdown-menu.notification-css {background: rgb(255, 255, 255); border: 1px solid rgb(255, 255, 255); display: block; left: -412%; min-width: 350px;
+  padding: 10px 20px; top: 180%; width: 100%;}
+.main-notification {display: block; margin: 0 0 15px; overflow: hidden; width: 100%;}
+.main-notification .remaining-notification { font-size: 15px; font-weight: 500; line-height: 2;}
+.main-notification .view-all-notification {float: right;}
+.cart-info-section .btn-group .dropdown-menu.notification-css a { border-radius: 5px; color: rgb(139, 145, 160); display: block;  font-size: 12px;  line-height: normal; overflow: hidden; padding: 7px 15px;  position: relative;  text-align: left;}
+.cart-info-section .btn-group .dropdown-menu.notification-css a { background: rgb(254, 242, 242);}
+.cart-info-section .btn-group .dropdown-menu.notification-css a:hover {background: rgb(250, 225, 225); border-radius: 5px;}
+.cart-info-section .btn-group .dropdown-menu.notification-css li:nth-child(2n) a {background: rgb(237, 247, 252);}
+.cart-info-section .btn-group .dropdown-menu.notification-css li:nth-child(2n) a:hover {background: rgb(216, 235, 244);}
+.cart-info-section .btn-group .dropdown-menu.notification-css > li:hover { background: rgba(0, 0, 0, 0);}
+
+
+.notification-left {width: 17%;}
+.cart-info-section .notification-css img {border-radius: 50%; height: 35px; width: 35px;}
+.notification-right {width: 82%;}
+.cart-info-section .btn-group .dropdown-menu.notification-css a { color: rgb(139, 145, 160); font-size: 12px; line-height: normal;  text-align: left;}
+.cart-info-section .btn-group > .dropdown-menu.notification-css{ min-width: 350px;}
+.dropdown-menu.notification-css > li {clear: both; margin: 0 0 10px;}
+.cart-info-section .btn-group .dropdown-menu.notification-css .view-all-notification > a {background: rgb(83, 209, 146); color: rgb(255, 255, 255);}
+.cart-info-section  .btn-group .dropdown-menu.notification-css .view-all-notification > a:hover { background: rgb(10, 166, 153) none repeat scroll 0 0;}
+.notification-css .notification-right p { font-size: 12px; }
+.cart-info-section .btn-group.open > .dropdown-menu.notification-css {left: -324px;}
+
+
+
+
+/*================= Inner Pages Header Css ================*/
+
+.inner-page-header {background: rgba(0, 0, 0, 0.5);  color: rgb(255, 255, 255);}
+.inner-page-header .header-search-form input{ background:rgba(0, 0, 0, 0);}
+.inner-page-header .header-search-form span{ border-top: 1px solid rgb(255, 255, 255);}
+.inner-page-header .cart-info-section .btn-group > a{color: rgb(255, 255, 255);}
+
+
+
+
+
+.inner-page-header .hide-logo{ display:none;}
+.inner-page-header .header-inner > ul > li > a.active, .inner-page-header .header-inner > ul > li > a, .inner-page-header .user-info-section .dropdown-toggle {color: #000;}
+
+.for-tablet .dropdown_toggle, .left-content-beforelogin .header-search-form{ display:none;}
+
+
+
+
+
+
+
+
+/*==== Footer Css ====*/
+
+footer { background: rgb(14, 14, 14); color: rgb(51, 51, 51); overflow: hidden;}
+footer a:hover{ color:rgb(151, 72, 68);}
+footer .footer-inner {margin: 0 auto; overflow: hidden; padding-top: 60px;}
+.footer-column { float: left;  margin-bottom: 15px;  margin-right: 30px; font-family:helvetica;} 
+footer a{ color:rgb(170, 170, 170); font-size: 13px; padding-bottom: 7px;  padding-top: 7px; display:block; }
+footer .footer-column a {transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s; -webkit-transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s; -ms-transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s; -o-transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;}
+
+footer h4 {color: rgb(255, 255, 255);font-size: 17px; font-weight: normal; letter-spacing: 1px;  margin: 0; padding: 0 0 18px;  text-transform: uppercase; font-family:karla; font-weight:500;}
+
+
+footer .footer-column a::before {color: rgb(102, 102, 102); content: "\f105"; cursor: pointer; display: inline-block; font-family: 'FontAwesome'; font-size: 13px; line-height: 20px;  margin-right: 5px;}
+
+.logo-link {border: 1px solid rgb(102, 102, 102); display: block; font-family: Helvetica; font-size: 29px; padding: 10px 0; text-align: center; width: 100%; color:#fff;}
+
+footer address {border: medium none; color: rgb(153, 153, 153); display: block; font-size: 13px; font-style: normal; line-height: 1.5em; margin: 10px auto 5px; padding-bottom: 5px; padding-top: 5px; text-align: center;}
+footer address em::before { margin: 0 !important;}
+footer address div { display: block;  overflow: hidden;  padding-bottom: 10px;  text-align: left;}
+.footer-bottom {background-color: rgb(6, 6, 6); margin: auto; overflow: hidden; padding: 18px 0; width: 100%; border-top:1px solid rgb(51, 51, 51);}
+footer .coppyright {color: rgb(102, 102, 102); float: left; line-height:34px;}
+footer ul {margin: 0; padding: 0; text-align: right;}
+.footer-bottom .company-links li {border-bottom: medium none; display: inline-block;  list-style: outside none none; margin-left: 20px;}
+.footer-bottom a {color: rgb(153, 153, 153);}
+.footer-bottom a:hover{ color:rgb(151, 72, 68);}
+footer address em { float: left;  font-size: 16px !important;  margin: 0 4px 0 0;  width: 10%;}
+footer address span {  display: inline-block;  float: right;  width: 88%;}
+.co-info span a { padding: 0;}
+.mobile-menu {background: #fff; left: 0; min-width: 240px; position: absolute; top: 116%; display:none; text-align: left;}
+
+
+/*========= Tab Css ==========*/
+
+.tabpanel-container{ display:none;}
+.show-tab{ display:block;}
+
+
+/*========= back top top Css ==========*/
+
+#back-to-top { text-align:center; background-color: rgba(20, 20, 20, 0.4); bottom: -80px; cursor: pointer; height: 50px; opacity: 0; padding: 9px 13px 7px; position: fixed; right: 10px; width: 50px; z-index: 1000;}
+
+#back-to-top i {color: rgb(255, 255, 255); display: block; font-size: 24px; line-height: 32px; margin: 0 auto; width: 24px;}
+
+
+/*============= Notification Popup Css ============*/
+
+.notification-popup::after {background: rgba(0, 0, 0, 0.8); content: ""; display: block; height: 100%; position: absolute; top: 0; width: 100%; z-index: 9999;}
+.notification-popup {bottom: 0; height: 100%; left: 0; margin: 0 auto; position: fixed; top: 0; transform: translateY(0%); width: 100%; z-index: 9999;}
+.note-popup-css {background: #fff; border-radius: 3px; font-size: 20px; margin: 9em auto; padding: 20px 20px 30px; position: relative; text-align: center; width: 30%; z-index: 99999;}
+.close-notification-css {position: absolute; right: 10px; top: 8px; cursor:pointer}
+
+.close-notification-css .icon-close {font-size: 28px;}
+.controls a {width: 100%; padding:7px 15px; background:rgb(151, 72, 68); color:#fff; text-align:center;}
+.note-popup-css > h4 {font-size: 22px; margin: 0 0 25px; text-transform: uppercase;}
+.note-popup-css .input-group { width: 100%;}
+.notification-popup .form-control { height: 40px;  width: 100%;}
+.note-popup-css .form-group { margin-bottom: 20px;}
+
+.note-popup-css > p {font-size: 14px; margin: 0 0 30px; text-align: left;}
+
+/*============= Header before login Css ============*/
+
+.login-text a {color: #8a8a86;}
+.login-text a:hover{ color:#fff;}
+
+.social-user-form .modal-header > h4 {font-size: 30px;  margin: 0;}
+.social-user-form .modal-dialog {width: 500px;}
+.social-user-form .modal-body {padding: 0;}
+.twitter-fields > input {border: 1px solid #ddd; height: 40px;  margin: 0 0 10px;  padding: 0 10px;  width: 100%;}
+.twitter-fields .send-button {border: medium none; color: #fff; font-size: 16px;}
+.social-user-form .login-form .user-register-bottom {padding: 50px 20px;}
+.common-form-user .modal-dialog {margin: 100px auto;}
+
+.header-search-form .fa.fa-close {display: none; font-size: 14px; position: absolute; right: 0; top: 18px; cursor:pointer;}
+
+
+
+
+
+
+
+
+@media (max-width:1330px){
+	
+	}
+	
+@media (max-width:1280px){
+	
+	
+	}
+	
+@media (max-width:1230px){
+	
+	
+	}		
+
+@media (max-width:1200px){
+	
+	.note-popup-css{ width:40%;}
+	.header-search-form input {min-width: 190px;}
+	}
+
+
+
+@media (max-width:991px){
+
+.main-header .container{ width: 100%;}
+
+
+.main-header .container {padding: 0;}
+
+.dropdown_toggle, .fixed-header .dropdown_toggle{ opacity:1; height:auto; position:absolute; top:0; border-right:none; z-index:9; left: 5%;}	
+.main-header {height: auto;  padding: 10px 0 0;}	
+	
+.header-search-form input { min-width: 180px;}
+.cart-info-section ul li span { display: inline-block; float: none;  line-height: normal;}
+.cart-info-section .btn-group > a  i{ color: rgb(255, 255, 255);}
+.cart-info-section {line-height: 4;}
+
+.cart-info-section .btn-group.open > .dropdown-menu{color: rgb(50, 50, 50);left: auto;right: 16%;top: 110%;}
+.cart-info-section .btn-group.open > .dropdown-menu::before{ border:none;}		
+.cart-info-section .dropdown-toggle { position:relative;}	
+.cart-info-section .btn-group.open > .dropdown-menu.account-info-css, .cart-info-section .btn-group.open > .dropdown-menu.notification-css{left: auto; right: 0; top: 100%;}	
+.cart-info-section .btn-group.open > .dropdown-menu.notification-css{ min-width: 290px;}	
+
+
+footer .coppyright { line-height: 20px;}
+.footer-inner .col-lg-3.col-xl-3.col-md-3.col-sm-3 { width: 33%;}
+
+.footer-inner .address-info { float: none; margin: 20px auto;  overflow: hidden;  width: 50% !important;}
+
+.note-popup-css{ width:50%;}
+.login-text{ text-align:center;}
+.top-menu-css .text-right, .top-menu-css .text-left{ display:none;}
+.logo-css i{ display:block;}
+
+.logo-css .mobile-menu a {color: #323232; display: block; padding: 0 16px;}
+.logo-css .mobile-menu a:hover{ color:#cc4452;}
+.logo-css .mobile-menu li{ line-height:2.5}
+	}
+
+
+@media (max-width:767px){
+	
+	.social-feed-css i {font-size: 50px;}
+	.footer-inner .col-lg-3.col-xl-3.col-md-3.col-sm-3 {width: 50%; float:left;}
+	.footer-bottom ul.links, footer .coppyright{ text-align:center;}
+	.footer-bottom .company-links li{ float:none;}
+	.note-popup-css{ width:60%;}
+	.social-user-form .modal-dialog {width: 400px;}
+	.header-search-form input, .cart-info-section .btn-group:first-child{ display:none;}
+	
+	}
+
+@media (max-width:750px){
+.header-search-form input { padding: 10px 20px 10px 0;}
+.header-search-form .fa.fa-close { top: 70px;}
+}
+
+
+@media (max-width:500px){
+.note-popup-css{ width:100%;}	
+
+
+	
+}
+
+@media (max-width:480px){
+	
+.main-notification .remaining-notification {font-size: 13px;}	
+.cart-info-section .btn-group.open > .dropdown-menu {right: 34%;}	
+.btn-group.open > .dropdown-menu.account-info-css{ top:100%;}	
+.dropdown_toggle, .fixed-header .dropdown_toggle{ left:0;}
+footer .coppyright { margin: 0 0 10px;}
+.footer-inner .col-lg-3.col-xl-3.col-md-3.col-sm-3 { width: 100%;}
+.footer-inner .address-info { width: 100% !important;}	
+.social-user-form .modal-dialog {width: 300px;}
+.header-user-login img {height: 25px; width: 25px; margin:0 0 4px;}
+.pull-right.cart-info-section > ul > li { margin: 0 0 0 15px;}
+.mobile-menu { left: 0; min-width: 210px; }
+
+	}
+
+@media (max-width:360px){
+	
+.cart-info-section .btn-group.open > .dropdown-menu.notification-css { right: -60px;}	
+.login-desktop-header .for-mobile{ width:15%}
+.header-icons-css{ width:38%}
+.top-menu-css{ width:47%}
+.top-menu-css .col-sm-12 { float: none;  margin: 0 0 0 50px;  padding: 0;  text-align: right;}
+
+
+
+}
+
+@media (max-width:320px){
+
+.social-user-form .modal-dialog {width: 265px;}
+button.close {right: -26px;  width: 26px;}
+
+
+/*.header-icons-css { float: left; padding: 0; position: static; width: 100%; background:#F9F6F4;}
+.pull-right.cart-info-section > ul > li.btn-group.header-user-login{position: absolute; top: 0; right: 7%; width:auto; line-height:6; padding:0; border-right:none;}
+.cart-info-section .btn-group.header-user-login > a i{ color:#323232;}
+
+.pull-right.cart-info-section > ul > li.btn-group {border-right: 1px solid rgb(128, 128, 128); float: none; line-height: normal; margin: 0; padding: 4px 0; text-align: center; width: 32%;}
+.pull-right.cart-info-section > ul { background: rgb(0, 0, 0); color: rgb(255, 255, 255);}
+.header-icons-css {margin: 10px 0 0;}*/
+
+}
+

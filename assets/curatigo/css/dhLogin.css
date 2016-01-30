@@ -1,0 +1,81 @@
+body { font-family: 'Open Sans', sans-serif; }
+.popup {
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background:rgba(255,255,255,1);
+     z-index: 12; overflow-y:auto;
+}
+ 
+/* Inner */
+.popup-inner {
+    max-width:700px;
+    width:90%;
+    padding:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    border-radius:3px;
+    background:#fff;
+}
+ 
+/* Close Button */
+.popup-close {
+    width:30px;
+    height:30px;
+    padding-top:4px;
+    display:inline-block;
+    position:absolute;
+    top:0px;
+    right:0px;
+    transition:ease 0.25s all;
+    -webkit-transform:translate(50%, -50%);
+    transform:translate(50%, -50%);
+    border-radius:1000px;
+    background:rgba(0,0,0,0.8);
+    font-family:Arial, Sans-Serif;
+    font-size:20px;
+    text-align:center;
+    line-height:100%;
+    color:#fff;
+}
+ 
+.popup-close:hover {
+    -webkit-transform:translate(50%, -50%) rotate(180deg);
+    transform:translate(50%, -50%) rotate(180deg);
+    background:rgba(0,0,0,1);
+    text-decoration:none;
+}
+.inner_image { width:100%; height:150px; background: url(../images/logo_v2.svg) no-repeat scroll center top / 150px 150px }
+.inner_text { text-align:center; }
+.inner_text > h2 { font-size:20px; font-weight:normal; }
+.inner_text > p  { font-size:15px; letter-spacing:0.8px; color:#545454; } 
+.userUL { list-style:none; padding-left:22%; height:40px;}
+.userUL > li { float:left; padding-left:15px; }
+.userUL > li > span > img { border:1px solid #ededed; border-radius:50%; height:30px; }
+.social_site { padding:10px; text-align:center; }
+.social_tab { border-radius:50px; color:#fff; padding:8px 30px; text-decoration:none; color:#fff; margin-right:18px; opacity: 0.8}
+.social_tab:hover{ opacity: 1; color: #fff;}
+.social_tab > [class^="icon-"], [class*=" icon-"] { font-size:19px; }
+.social_tab.twitter { background:#00aced; border:1px solid #00aced; }
+.social_tab.facebook { background:#3b5998; border:1px solid #3b5998; }
+.pageClose_class { background:#c3c3be; border:medium none; color:#fff; border-radius:100%; cursor:pointer; font-size:20px; height:38px; width:41px; position:absolute;
+top:7px; right:30px; }
+.imageClass { text-align:center; }
+.imageClass > p { color:#999; font-size:16px; }
+
+@media only screen and (max-width: 400px)
+{	
+	.popup-inner { padding:0; top:65%; }
+	.inner_text > h2 { font-size:18px; }
+	.inner_text > p { font-size:14px; }
+	.userUL { padding:0; }
+	.social_tab { padding:7px; margin-top:15px; float:left; width:100%; }
+	.social_site { padding: 0 45px 10px 30px; text-align:center; }
+    .popup-inner { top: 53%;}
+}
