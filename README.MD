@@ -1,11 +1,9 @@
-A PHP Application Platform, Based on CodeIgniter - curatigo.com Version 2.0.0.0
+A PHP Application Platform, Based on CodeIgniter - Version 2.0.0.0
 ==========================================================
 
 Project Repository
 ------------------
 
-Office LAN - ssh://administrator@http://10.1.1.27/home/administrator/git/repositories/curatigo.git
-Public IP  - ssh://administrator@http://<?PUBLIC_IP>/home/administrator/git/repositories/curatigo.git
 
 Note
 ----
@@ -15,7 +13,6 @@ This version supports multiple applications.
 Live Demo
 ---------
 
-http://demo.99bazaars.com/www/
 
 
 CodeIgniter 3.0 Documentation
